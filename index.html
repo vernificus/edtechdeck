@@ -31,14 +31,14 @@
         .card-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            grid-template-rows: 4.75in 4.75in;
+            grid-template-rows: auto auto;
             gap: 0.5in;
         }
 
         /* Core card styling */
         .trading-card {
             border: 2px solid #1a202c;
-            border-radius: 12px;
+            border-radius: 0;
             background-color: #ffffff;
             display: flex;
             flex-direction: column;
@@ -54,11 +54,11 @@
             color: white;
         }
         .card-header h3 {
-            font-size: 14px;
+            font-size: 13px;
             font-weight: 700;
         }
         .card-header span {
-            font-size: 10px;
+            font-size: 9px;
             font-weight: 600;
             padding: 2px 6px;
             border-radius: 4px;
@@ -67,7 +67,7 @@
 
         .card-image {
             width: 100%;
-            height: 120px;
+            height: 110px;
             background-color: #ffffff;
             display: flex;
             align-items: center;
@@ -102,14 +102,14 @@
         }
 
         .card-body {
-            padding: 10px;
-            font-size: 11px;
+            padding: 8px;
+            font-size: 10.5px;
             flex-grow: 1;
             display: flex;
             flex-direction: column;
         }
         .card-body strong {
-            font-size: 12px;
+            font-size: 11px;
             color: #2d3748;
         }
 
@@ -117,12 +117,12 @@
             margin-top: auto;
             padding-top: 8px;
             border-top: 1px dashed #cbd5e0;
-            font-size: 10px;
+            font-size: 9.5px;
             color: #4a5568;
         }
         .teacher-tip strong {
             color: #2d3748;
-            font-size: 10px;
+            font-size: 9.5px;
         }
 
         .card-meta {
@@ -177,7 +177,7 @@
         /* New style for the card back */
         .card-back {
             border: 2px solid #1a202c;
-            border-radius: 12px;
+            border-radius: 0;
             background-color: #e2e8f0;
             background-image: url('https://blogs.lcps.org/rrdimage/files/2025/09/Remove-background-project-4-755x1024.png'); /* <-- REPLACE THIS WITH YOUR DIRECT IMAGE LINK */
             background-size: contain;
@@ -188,7 +188,7 @@
         /* Student Choice Card Styles */
         .student-choice-card {
             border: 3px solid #ffd700; /* Gold border */
-            border-radius: 12px;
+            border-radius: 0;
             background-color: #fffaf0; /* Light cream background */
             display: flex;
             flex-direction: column;
